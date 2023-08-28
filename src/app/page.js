@@ -9,7 +9,7 @@ export default function Home() {
   const [someState, setSomeState] = useState(false);
   const router = useRouter();
   return (
-    <main>
+    <main className="container__Form">
       <div>
         <h1>Calcular el interés compuesto</h1>
       </div>
